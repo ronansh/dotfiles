@@ -53,7 +53,8 @@ let g:hybrid_reduced_contrast = 0
 " colorscheme seti
 " colorscheme badwolf
 " colorscheme papercolor
-colorscheme base16-ocean
+" colorscheme base16-ocean
+colorscheme OceanicNext
 " let g:molokai_original = 1
 " highlight search
 set hls
@@ -76,7 +77,7 @@ set scrolloff=3
 set shiftwidth=4
 set softtabstop=2
 set expandtab
-" set background=dark
+set background=dark
 
 " show command in the bottom bar 
 set showcmd
@@ -141,6 +142,7 @@ au BufNewFile,BufRead *.css set filetype=css syntax=css
 au BufNewFile,BufRead *.scss set filetype=scss syntax=scss
 au BufNewFile,BufRead *.sass set filetype=sass syntax=sass 
 au bufNewfile,BufRead *.js.flow set filetype=flow syntax=javascript
+au bufNewfile,BufRead *.ts set filetype=typescript syntax=typescript
 
 let python_highlight_all = 1
 

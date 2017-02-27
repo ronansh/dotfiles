@@ -7,7 +7,16 @@ export ZSH=/Users/ronan/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="miloshadzic"
+ZSH_THEME="bullet-train"
+
+# Bullet-train configuartion 
+BULLETTRAIN_PROMPT_ORDER=(
+  git
+  nvm
+  #context
+  dir
+)
+BULLETTRAIN_PROMPT_CHAR='_'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +60,7 @@ ZSH_THEME="miloshadzic"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git brew npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,3 +98,11 @@ alias sqlstop="mysql.server stop"
 # NGINX 
 alias nginxstart="sudo nginx"
 alias nginxstop="sudo nginx -s stop"
+
+#DEVTOOLS
+alias g='git' 
+alias gc='git commit'
+
+# HIGHLIGHTING
+cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
+

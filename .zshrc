@@ -7,7 +7,8 @@ export ZSH=/Users/ronan/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bullet-train"
+ZSH_THEME="agnoster"
+
 
 # Bullet-train configuartion 
 BULLETTRAIN_PROMPT_ORDER=(
@@ -104,5 +105,6 @@ alias g='git'
 alias gc='git commit'
 
 # HIGHLIGHTING
-cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
+# cd ~/.oh-my-zsh && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  
 
+prompt_context () { }

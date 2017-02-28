@@ -88,5 +88,6 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Reewr/vim-monokai-phoenix'
 Plugin 'arcticicestudio/nord-vim'
+Plugin 'whatyouhide/vim-gotham'
 
 call vundle#end()

@@ -85,5 +85,8 @@ Plugin 'crusoexia/vim-dracula'
 
 Plugin 'larsbs/vimtom'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'Reewr/vim-monokai-phoenix'
+Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()

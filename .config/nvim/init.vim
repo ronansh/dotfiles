@@ -35,7 +35,7 @@ set number
 set relativenumber
 
 " something 
-set termguicolors
+" set termguicolors
 
 " setting colorscheme
 let g:alduin_Shout_Become_Ethereal = 1
@@ -56,7 +56,7 @@ let g:hybrid_reduced_contrast = 0
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-colorscheme nord
+colorscheme solarized
 " let g:molokai_original = 1
 " highlight search
 set hls
@@ -79,7 +79,7 @@ set scrolloff=3
 set shiftwidth=4
 set softtabstop=2
 set expandtab
-" set background=dark
+set background=dark
 
 " show command in the bottom bar 
 set showcmd
@@ -197,7 +197,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "let g:airline_theme='zenburn'
 "let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'
-let g:airline_theme='nord'
+let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 
 "smart tab line

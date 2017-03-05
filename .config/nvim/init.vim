@@ -11,6 +11,7 @@ set omnifunc=syntaxcomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 let $JS_CMD='node'
 set t_Co=256
+let base16colorspace=256
 syntax enable
 
 " modeline 
@@ -22,11 +23,15 @@ set regexpengine=1
 " Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 
-source ~/plugins.vim
+source ~/.config/nvim/plugins.vim
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 " turning on syntax
 set number
+
+set smartcase
+
+" set cc=79
 
 " Paste 
 " set paste
@@ -35,16 +40,19 @@ set number
 set relativenumber
 
 " something 
-" set termguicolors
+set termguicolors
 
 " setting colorscheme
 let g:alduin_Shout_Become_Ethereal = 1
 let g:alduin_Shout_Aura_Whisper = 1
 
-let g:hybrid_reduced_contrast = 0
+let g:hybrid_reduced_contrast = 1
+let g:hybrid_custom_term_colors = 1
+let g:onedark_termcolors=256
+
 " colorscheme base16-gooey
-" colorscheme base16-ashes
-" colorscheme base16-default-dark
+" colorscheme base16-gooey" colorscheme base16-ashes
+" colorscheme base16-gooey" colorscheme base16-default-dark
 " colorscheme material-theme
 " colorscheme molokai
 " colorscheme gruvbox
@@ -56,7 +64,8 @@ let g:hybrid_reduced_contrast = 0
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-colorscheme solarized
+" colorscheme solarized
+colorscheme onedark
 " let g:molokai_original = 1
 " highlight search
 set hls
@@ -79,7 +88,7 @@ set scrolloff=3
 set shiftwidth=4
 set softtabstop=2
 set expandtab
-set background=dark
+" set background=dark
 
 " show command in the bottom bar 
 set showcmd
@@ -197,7 +206,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "let g:airline_theme='zenburn'
 "let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'
-let g:airline_theme='solarized'
+let g:airline_theme='hybrid'
 let g:airline_powerline_fonts = 1
 
 "smart tab line

@@ -53,7 +53,7 @@ let g:hybrid_reduced_contrast = 1
 let g:hybrid_custom_term_colors = 1
 let g:onedark_termcolors=256
 
-" colorscheme base16-gooey
+colorscheme base16-gooey
 " colorscheme base16-gooey" colorscheme base16-ashes
 " colorscheme base16-gooey" colorscheme base16-default-dark
 " colorscheme material-theme
@@ -67,7 +67,8 @@ let g:onedark_termcolors=256
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-colorscheme OceanicNext
+" colorscheme OceanicNext
+" colorscheme spacegray
 
 " highlight search
 set hls
@@ -208,7 +209,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "let g:airline_theme='zenburn'
 "let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'
-let g:airline_theme='oceanicnext'
+let g:airline_theme='hybrid'
 let g:airline_powerline_fonts = 1
 
 "smart tab line

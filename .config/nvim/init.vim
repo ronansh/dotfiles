@@ -13,6 +13,7 @@ let $JS_CMD='node'
 set t_Co=256
 let base16colorspace=256
 syntax enable
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 " modeline 
 set modelines=0
@@ -40,7 +41,9 @@ set smartcase
 set relativenumber
 
 " something 
-set termguicolors
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 " setting colorscheme
 let g:alduin_Shout_Become_Ethereal = 1
@@ -64,9 +67,8 @@ let g:onedark_termcolors=256
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-" colorscheme solarized
-colorscheme onedark
-" let g:molokai_original = 1
+colorscheme OceanicNext
+
 " highlight search
 set hls
 
@@ -88,7 +90,7 @@ set scrolloff=3
 set shiftwidth=4
 set softtabstop=2
 set expandtab
-" set background=dark
+set background=dark
 
 " show command in the bottom bar 
 set showcmd
@@ -206,7 +208,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 "let g:airline_theme='zenburn'
 "let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'
-let g:airline_theme='hybrid'
+let g:airline_theme='oceanicnext'
 let g:airline_powerline_fonts = 1
 
 "smart tab line

@@ -53,7 +53,7 @@ let g:hybrid_reduced_contrast = 1
 let g:hybrid_custom_term_colors = 1
 let g:onedark_termcolors=256
 
-colorscheme base16-gooey
+" colorscheme base16-gooey
 " colorscheme base16-gooey" colorscheme base16-ashes
 " colorscheme base16-gooey" colorscheme base16-default-dark
 " colorscheme material-theme
@@ -67,8 +67,9 @@ colorscheme base16-gooey
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-" colorscheme OceanicNext
+colorscheme OceanicNext
 " colorscheme spacegray
+" colorscheme onedark
 
 " highlight search
 set hls
@@ -158,7 +159,7 @@ au BufNewFile,BufRead *.sass set filetype=sass syntax=sass
 au bufNewfile,BufRead *.js.flow set filetype=flow syntax=javascript
 au bufNewfile,BufRead *.ts set filetype=typescript syntax=typescript
 
-let python_highlight_all = 1
+" let python_highlight_all = 1
 
 " NERDTREE
 autocmd StdinReadPre * let s:std_in=1
@@ -207,9 +208,9 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 " let g:airline_theme='hybrid'
 " let g:airline_theme='simple'
 "let g:airline_theme='zenburn'
-"let g:airline_theme='oceanicnext'
+let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'
-let g:airline_theme='hybrid'
+" let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 
 "smart tab line

@@ -53,7 +53,7 @@ let g:hybrid_reduced_contrast = 1
 let g:hybrid_custom_term_colors = 1
 let g:onedark_termcolors=256
 
-" colorscheme base16-gooey
+colorscheme base16-gooey
 " colorscheme base16-gooey" colorscheme base16-ashes
 " colorscheme base16-gooey" colorscheme base16-default-dark
 " colorscheme material-theme
@@ -67,9 +67,11 @@ let g:onedark_termcolors=256
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-colorscheme OceanicNext
-" colorscheme spacegray
+" colorscheme OceanicNext
+"colorscheme spacegray
 " colorscheme onedark
+" colorscheme dracula
+" colorscheme gotham256
 
 " highlight search
 set hls
@@ -168,7 +170,7 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
-let g:NERDTreeWinPos = "right"
+let g:NERDTreeWinPos = "left"
 let g:NERDTreeWinSize = 27 
 let NERDTreeShowHidden=1
 
@@ -205,12 +207,13 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 
 "airline settings
 " let g:airline_theme='badwolf'
-" let g:airline_theme='hybrid'
+let g:airline_theme='hybrid'
 " let g:airline_theme='simple'
 "let g:airline_theme='zenburn'
-let g:airline_theme='oceanicnext'
+" let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'
 " let g:airline_theme='solarized'
+" let g:airline_theme='gotham256'
 let g:airline_powerline_fonts = 1
 
 "smart tab line

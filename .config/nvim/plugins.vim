@@ -91,5 +91,4 @@ Plugin 'arcticicestudio/nord-vim'
 Plugin 'rakr/vim-one'
 Plugin 'cocopon/iceberg.vim'
 Plugin 'othree/yajs.vim'
-
 call vundle#end()

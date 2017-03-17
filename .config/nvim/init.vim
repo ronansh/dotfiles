@@ -53,7 +53,7 @@ let g:hybrid_reduced_contrast = 1
 let g:hybrid_custom_term_colors = 1
 let g:onedark_termcolors=256
 
-colorscheme base16-gooey
+" colorscheme base16-gooey
 " colorscheme base16-gooey" colorscheme base16-ashes
 " colorscheme base16-gooey" colorscheme base16-default-dark
 " colorscheme material-theme
@@ -69,7 +69,7 @@ colorscheme base16-gooey
 " colorscheme monokai-phoenix
 " colorscheme OceanicNext
 "colorscheme spacegray
-" colorscheme onedark
+colorscheme onedark
 " colorscheme dracula
 " colorscheme gotham256
 
@@ -94,7 +94,7 @@ set scrolloff=3
 set shiftwidth=4
 set softtabstop=2
 set expandtab
-set background=dark
+" set background=dark
 
 " show command in the bottom bar 
 set showcmd

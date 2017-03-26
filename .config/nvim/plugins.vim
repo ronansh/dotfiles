@@ -91,4 +91,6 @@ Plugin 'arcticicestudio/nord-vim'
 Plugin 'rakr/vim-one'
 Plugin 'cocopon/iceberg.vim'
 Plugin 'othree/yajs.vim'
+Plugin 'liuchengxu/space-vim-dark'
+
 call vundle#end()

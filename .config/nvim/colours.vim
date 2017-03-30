@@ -9,7 +9,7 @@
 " colorscheme monokai
 " colorscheme seti
 colorscheme badwolf
-" colorscheme papercolor
+ "colorscheme papercolor
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
@@ -19,6 +19,7 @@ colorscheme badwolf
 " colorscheme dracula
 " colorscheme gotham256
 " colorscheme space-vim-dark
+" colorscheme iceberg
 
 " set background=dark
 let g:gruvbox_contrast_dark='soft'

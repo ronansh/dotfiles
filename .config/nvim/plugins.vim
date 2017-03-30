@@ -92,5 +92,5 @@ Plugin 'rakr/vim-one'
 Plugin 'cocopon/iceberg.vim'
 Plugin 'othree/yajs.vim'
 Plugin 'liuchengxu/space-vim-dark'
-
+Plugin 'mhinz/vim-startify'
 call vundle#end()

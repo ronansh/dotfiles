@@ -10,7 +10,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle heroku 
 antigen bundle node
 antigen bundle nodenv.plugin.zsh
-antigen theme agnoster
+antigen theme shellder
 antigen apply
 
 BULLETTRAIN_PROMPT_ORDER=(
@@ -29,6 +29,11 @@ source $ZSH/oh-my-zsh.sh
  
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# setting neovim to the normal vim editor in my keybindings
+alias vim='nvim'
+alias vimcol='vim ~/Col/talk.md'
+
 #MYSQL
 alias sqlstart="mysql.server start"
 alias sqlstop="mysql.server stop"

@@ -1,5 +1,7 @@
 call vundle#begin()
 
+Plugin 'mhinz/vim-janah'
+
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'morhetz/gruvbox'

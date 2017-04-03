@@ -2,7 +2,7 @@
 source ~/antigen/antigen.zsh
 export ZSH=/Users/ronan/.oh-my-zsh
 export EDITOR=nvim
-ZSH_THEME="dracula"
+ZSH_THEME="agnoster"
 
 
 antigen use oh-my-zsh

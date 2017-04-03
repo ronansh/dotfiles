@@ -13,9 +13,9 @@
 " colorscheme base16-ocean
 " colorscheme material-theme
 " colorscheme monokai-phoenix
-" colorscheme OceanicNext
+colorscheme OceanicNext
 " colorscheme spacegray
-colorscheme onedark
+" colorscheme onedark
 " colorscheme dracula
 " colorscheme gotham256
 " colorscheme space-vim-dark
@@ -23,7 +23,7 @@ colorscheme onedark
 
 
 
-" set background=dark
+set background=dark
 let g:gruvbox_contrast_dark='soft'
 let g:gruvbox_improved_strings=1
 

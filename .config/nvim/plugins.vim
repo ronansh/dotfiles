@@ -46,17 +46,12 @@ Plugin 'antlypls/vim-colors-codeschool'
 
 Plugin 'jpo/vim-railscasts-theme'
 Plugin 'vim-scripts/obsidian2.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/syntastic'
 Plugin 'zeis/vim-kolor'
 Plugin 'vim-scripts/Conque-Shell'
 Plugin 'zenorocha/dracula-theme'
 
 Plugin 'AlessandroYorba/Alduin'
 Plugin 'w0ng/vim-hybrid'
-" Plugin 'lokaltog/vim-powerline'
-" Plugin 'jelera/vim-javascript-syntax'
-Plugin 'shougo/vimshell.vim'
 Plugin 'benmills/vimux'
 
 Plugin 'mhartington/oceanic-next'
@@ -68,10 +63,9 @@ Plugin 'vim-scripts/darktango.vim'
 
 Plugin 'yggdroot/indentline'
 Plugin 'ap/vim-css-color'
-Plugin 'jeetsukumaran/vim-nefertiti'
 Plugin 'trevorrjohn/vim-obsidian'
 
-Plugin 'kien/ctrlp.vim'
+
 Plugin 'groenewege/vim-less'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'freeo/vim-kalisi'
@@ -95,4 +89,7 @@ Plugin 'cocopon/iceberg.vim'
 Plugin 'othree/yajs.vim'
 Plugin 'liuchengxu/space-vim-dark'
 Plugin 'mhinz/vim-startify'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'HerringtonDarkholme/yats.vim'
+
 call vundle#end()

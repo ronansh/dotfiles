@@ -1,7 +1,7 @@
 "airline settings
 " let g:airline_theme='badwolf'
-let g:airline_theme='hybrid'
-" let g:airline_theme='simple'
+"let g:airline_theme='hybrid'
+let g:airline_theme='simple'
 "let g:airline_theme='zenburn'
 " let g:airline_theme='oceanicnext'
 " let g:airline_theme='kolor'

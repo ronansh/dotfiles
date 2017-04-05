@@ -91,5 +91,7 @@ Plugin 'liuchengxu/space-vim-dark'
 Plugin 'mhinz/vim-startify'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'jacoborus/tender.vim'
+Plugin 'kamwitsta/nordisk'
 
 call vundle#end()

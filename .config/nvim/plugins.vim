@@ -1,6 +1,8 @@
 call vundle#begin()
 
 Plugin 'mhinz/vim-janah'
+Plugin 'hdima/python-syntax'
+Plugin 'sunsoutfunsout/Pretty-Vim-Python'
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'

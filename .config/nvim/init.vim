@@ -38,7 +38,7 @@ let NERDTreeShowHidden=1
 
 
 if (has("termguicolors"))
- " set termguicolors
+    set termguicolors
 endif
 set hls
  

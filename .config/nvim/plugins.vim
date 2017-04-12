@@ -3,6 +3,7 @@ call vundle#begin()
 Plugin 'mhinz/vim-janah'
 Plugin 'hdima/python-syntax'
 Plugin 'sunsoutfunsout/Pretty-Vim-Python'
+Plugin 'kien/rainbow_parentheses.vim'
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'

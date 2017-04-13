@@ -2,8 +2,8 @@
 source ~/antigen/antigen.zsh
 export ZSH=/Users/ronan/.oh-my-zsh
 export EDITOR=nvim
-#ZSH_THEME="angry-fly"
-ZSH_THEME="wild-cherry"
+ZSH_THEME="gallois"
+#ZSH_THEME="wild-cherry"
 
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting

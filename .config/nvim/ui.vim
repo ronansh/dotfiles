@@ -8,6 +8,7 @@ let g:airline_theme='hybrid'
 " let g:airline_theme='solarized'
 " let g:airline_theme='gotham256'
 " let g:airline_theme='onedark'
+" let g:airline_theme='violet'
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
 

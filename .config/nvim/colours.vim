@@ -1,4 +1,4 @@
-colorscheme material-theme 
+colorscheme material-theme
 
 set background=dark
 let g:gruvbox_contrast_dark='soft'
